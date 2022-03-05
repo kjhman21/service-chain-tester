@@ -1,0 +1,14 @@
+{
+  "parent": {
+    "ip": "parent chain's ip",
+    "url": "URL that can receive JSON RPC API (e.g., http://<ip>:8551)",
+    "key": "private key with sufficient funds in the parent chain",
+    "operator": "parent bridge operator address"
+  },
+  "child": {
+    "ip": "child chain's ip",
+    "url": "URL that can receive JSON RPC API (e.g., http://<ip>:8551)",
+    "key": "private key with sufficient funds in the child chain",
+    "operator": "child bridge operator address"
+  }
+}
